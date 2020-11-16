@@ -251,12 +251,15 @@ int main() {
 
     unsortedStudents.clear();
     unsortedStudents.push_back(new Student(32, "Bienve", "Velez"));
+    unsortedStudents.push_back(new Student(87, "Cheo", "Cruz"));
     unsortedStudents.push_back(new Student(76, "Amanda", "Vazquez"));
     unsortedStudents.push_back(new Student(65, "Fernando", "Davis"));
     unsortedStudents.push_back(new Student(54, "Alejandra", "Munoz"));
     unsortedStudents.push_back(new Student(43, "Fatima", "Puig"));
     unsortedStudents.push_back(new Student(21, "Joshua", "Cruz"));
     unsortedStudents.push_back(new Student(10, "Rey", "Cotto"));
+    unsortedStudents.push_back(new Student(98, "Gabriel", "Rodriguez"));
+    unsortedStudents.push_back(new Student(5, "Dione;", "Martinez"));
 
     cout << "Quick Sort" << endl;
     SearchingSorting::quickSort(unsortedStudents);
